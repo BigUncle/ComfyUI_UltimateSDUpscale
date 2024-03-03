@@ -7,13 +7,13 @@ original_modules = sys.modules.copy()
 # Place aside potentially conflicting modules
 modules_used = [
     "modules",
-    "modules.devices",
+    # "modules.devices",
     "modules.images",
     "modules.processing",
     "modules.scripts",
     "modules.shared",
-    "modules.upscaler",
-    "utils",
+    # "modules.upscaler",
+    # "utils",
 ]
 original_imported_modules = {}
 for module in modules_used:
